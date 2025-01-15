@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Zayn</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="info">
+    <div id="boxone">
+    <p>ZAYN is a multi-platinum selling recording artist, songwriter, producer, and philanthropist known for his skyscraping vocals and hybrid style of pop and R&B. In 2023, ZAYN released his first original music in over two years, making his highly anticipated return with "Love Like This." With his debut solo album, he became the first UK Male Solo artist to simultaneously chart at #1 on the UK and US album charts in the first week of release for his record-breaking album Mind of Mine. The album's lead single, "PILLOWTALK" hit #1 in 68 countries around the world and has since been certified 5x platinum by the RIAA. The album was followed by his gold certified Icarus Falls and the critically acclaimed Nobody Is Listening.
+
+        Throughout his career, ZAYN has garnered several accolades including a Billboard Music Award, American Music Award, MTV VMA, and two Brit Award nominations.</p>
+    </div>
+        <p>In 2024, Zayn released his highly anticipated fourth studio album, 'ROOM UNDER THE STAIRS'. This album marks his most personal release to date, reflecting where he is in his life while exploring the complexities of healing, stillness and growth. It also sees the genre-bending artist explore a new sound, leaning into his soulful vocals, live instrumentation, and poetic lyricism as a songwriter. In addition to arriving to critical acclaim, the album debuted within the Top 5 across several Billboard charts including, Billboard's Top Album Sales, Top Rock & Alternative and Americana/Folk Albums chart.</p>
+    </div>
+    <h2>Albums</h2>
+    <div>
+    <a href="https://open.spotify.com/album/5amj9zNeZ3B2EdpBgXrOZ0?si=xGQCoc74SjarUBCjP5bIEw"><img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Zayn_-_Mind_of_Mine_%28Official_Album_Cover%29.png" alt="image" height="200"></a>
+
+    <a href="https://open.spotify.com/album/1DF9B2hfwX4EdgEFwGcRwh?si=qFbqh1zZTv-tS5Xldl74eQ"> <img src="https://i.scdn.co/image/ab67616d0000b2732bdcb339402ebd78651f09c8" alt="image" height="200"></a>
+
+    <a href="https://open.spotify.com/album/2yuQqhSklmfWgn8lmJNk5t?si=Y3TVkN8eTQiUjMwipOPxvw"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNXU_1FObd6bp2bNqPgz5QjutkiUGiT1ivyg&s" alt="image" height="200"></a>
+
+    <a href="https://open.spotify.com/album/0PGluYePuY9INYN7SQheZ0?si=IBHgnzkVQWSmetbovZ0fjA"> <img src="https://upload.wikimedia.org/wikipedia/en/0/0f/Room_Under_the_Stairs.jpg" alt="image" height="200"></a>
+
+    </div>
+
+
+
+
+    <br>
+    <br>
+
+
+    <form action="add" method="post">
+        {% csrf_token %}
+        <h2 id="mert">Order Zayn Merch</h2>
+        <div>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="What's your name handsome!?" required>
+        </div>
+        <div>
+            <label for="size">Size</label>
+            <select id="size" name="size" required>
+                <option value="" disabled selected>Size matters! (Literally, please choose one.)</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XL">XXL</option>
+            </select>
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea id="address" name='address' placeholder="Where do you receive your pizza deliveries?" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <br>
+    <h4 id="handsome"> You Should Definitely order his merch cause look how handsome he is ;)</h4>
+    <img id="foot" src="https://i.pinimg.com/736x/80/c3/d3/80c3d3b65ea77b492ac0e3eb03b1d94f.jpg" alt="image" height="500">
+    <img id="foot" src="https://assets.teenvogue.com/photos/55828fe3a28d9d4e0540c373/master/w_320%2Cc_limit/beauty-celebrity-beauty-2015-03-zayn-malik-hair-transformation-09.jpg" alt="image" height="500">
+    <img id="foot" src="https://www.rollingstone.com/wp-content/uploads/2016/03/GettyImages-624756974.jpg?w=1581&h=1054&crop=1" alt="image" height="500">
+<style>
+/* Global Styles */
+body {
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url("https://pbs.twimg.com/media/Fnagh63WQBA7wfK.jpg:large");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5;
+}
+
+/* Headings */
+h1 {
+    color: #ffffff;
+    font-size: 3.5em;
+    margin-top: 30px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+h2 {
+    color: #87ceeb;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+    border-bottom: 3px solid #87ceeb;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Paragraph */
+p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin: 15px auto;
+    color: #e0e0e0;
+    max-width: 800px;
+}
+
+/* Image Styling */
+img {
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Form Styling */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.8), rgba(245, 245, 245, 0.5));
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    text-align:center;
+}
+
+
+form h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #194f99;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    background: #f9f9f9;
+    color: #333;
+    transition: all 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 65%;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    background: #f9f9f9;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #87ceeb;
+    box-shadow: 0 0 10px rgba(135, 206, 235, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(45deg, #194f99, #87ceeb);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #163d6c, #1e90ff);
+    transform: translateY(-3px);
+}
+
+/* Info Box */
+#info {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+#info p {
+    text-align: left;
+    margin: 0 auto;
+    color: #dcdcdc;
+}
+
+/* Box Styling */
+#boxone p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ccc;
+}
+
+/* Animations for Interactions */
+input, textarea, button {
+    transition: all 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#foot{
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    box-shadow 0.3s ease;
+    opacity: 100%;
+}
+#foot:hover{
+    transform: none;
+}
+#handsome{
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 3px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    font-weight: lighter;
+}
+#mert{
+    font-size: 1em;
+    font-weight: 600;
+    color: #194f99;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: right;
+}
+</style>
+</body>
+</html>
